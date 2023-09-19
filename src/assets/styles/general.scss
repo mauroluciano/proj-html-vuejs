@@ -1,0 +1,12 @@
+// VARIABLES
+@use "./partials/variables" as *;
+
+// MIXINS
+@use "./partials/mixins" as *;
+
+// Font
+
+body {
+  background-color: #525659;
+  font-family: "Roboto", sans-serif;
+}

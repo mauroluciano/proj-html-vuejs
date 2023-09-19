@@ -1,0 +1,15 @@
+@mixin flex {
+  display: flex;
+}
+
+.container {
+  @include flex();
+  width: 100%;
+  flex-direction: column;
+}
+
+nav {
+  @include flex();
+  background-color: black;
+  height: 60px;
+}
