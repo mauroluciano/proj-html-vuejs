@@ -2,9 +2,11 @@
   display: flex;
 }
 
-header {
+.jumbotron {
   background-image: url(./assets/img/images/header-image-homepage.jpg);
-  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
 }
 
 .navi {
@@ -35,6 +37,31 @@ header {
 
   .background {
     background-color: #3bafbf;
-    height: 30px;
   }
+}
+
+.welcomeMessage {
+  width: 500px;
+}
+
+.boxMessage {
+  span {
+    text-transform: uppercase;
+  }
+}
+
+.welcome {
+  min-height: 50vh;
+}
+
+.ourDoctors {
+  min-height: 70vh;
+  background-color: #dddddd;
+
+  .icon {
+    width: 70px;
+  }
+}
+
+.card {
 }
