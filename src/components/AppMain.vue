@@ -312,6 +312,93 @@ import { ref } from "vue";
         </div>
       </div>
     </div>
+
+    <div class="jumbotronApp container-fluid flex-wrap">
+      <div class="container">
+        <div class="text-center py-5">
+          <div class="row p-5 justify-content-center my-4">
+            <div class="my-2">
+              <img
+                src="/src/assets/img/images/icon-7.png"
+                class="icon"
+                alt="" />
+            </div>
+
+            <h2>Make An Appointment</h2>
+
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo
+            </p>
+            <form
+              action="http://learning.tizianonicolai.com/request-catcher/"
+              method="GET"
+              class="text-start row form">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <label for="validationCustom01" class="form-label"
+                  >First name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  value="Mark"
+                  required />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <label for="validationCustom02" class="form-label"
+                  >Last name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom02"
+                  value="Otto"
+                  required />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <label for="validationCustom01" class="form-label"
+                  >First name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  value="Mark"
+                  required />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <label for="validationCustom02" class="form-label"
+                  >Last name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom02"
+                  value="Otto"
+                  required />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-12">
+                <label for="textarea" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  name="textarea"
+                  id="textarea"
+                  rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" value="Send">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 

@@ -81,7 +81,7 @@
 }
 
 .threeBoxes {
-  height: 50vh;
+  height: 10vh;
   color: white;
 
   span {
@@ -103,4 +103,16 @@
   p {
     padding: 10px;
   }
+}
+
+.jumbotronApp {
+  background-image: url(./assets/img/images/make-an-appointment.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  color: white;
+}
+
+.form {
+  width: 600px;
 }
