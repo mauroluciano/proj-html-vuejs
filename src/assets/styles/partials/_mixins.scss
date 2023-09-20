@@ -54,7 +54,7 @@
   min-height: 50vh;
 }
 
-.ourDoctors {
+.docSection {
   min-height: 70vh;
   background-color: #dddddd;
 
@@ -63,5 +63,44 @@
   }
 }
 
-.card {
+.jumbotronTour {
+  background-image: url(./assets/img/images/paralax-bg-tour-facilities.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  color: white;
+
+  p {
+    width: 500px;
+    margin: 20px 0;
+  }
+
+  .icon {
+    width: 70px;
+  }
+}
+
+.threeBoxes {
+  height: 50vh;
+  color: white;
+
+  span {
+    font-size: large;
+  }
+
+  .emergency {
+    background-color: #3bafbf;
+  }
+
+  .expert {
+    background-color: #3896c2;
+  }
+
+  .superb {
+    background-color: #327ec7;
+  }
+
+  p {
+    padding: 10px;
+  }
 }
