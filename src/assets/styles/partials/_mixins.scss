@@ -63,6 +63,15 @@
   }
 }
 
+h2::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  width: 150px;
+  height: 1px;
+  background-color: grey;
+}
+
 .jumbotronTour {
   background-image: url(./assets/img/images/paralax-bg-tour-facilities.jpg);
   background-size: cover;
@@ -120,6 +129,14 @@
 
 .form {
   width: 500px;
+  color: white;
+
+  input,
+  textarea,
+  button {
+    background: transparent;
+    border: 1px solid #327ec7;
+  }
 }
 
 .jumbotronIcons {
@@ -128,4 +145,9 @@
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
+}
+
+.iconsFooter img {
+  width: 20px;
+  margin-right: 10px;
 }
