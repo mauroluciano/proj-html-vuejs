@@ -1,5 +1,11 @@
 <script>
 import { ref } from "vue";
+
+data() {
+  return {
+    names: ['Jon Snow', 'Tony Stark', 'Anna Smith']
+  },
+};
 </script>
 
 <template>
@@ -96,7 +102,7 @@ import { ref } from "vue";
                     class="card-img-top"
                     alt="..." />
                   <div class="card-body text-start">
-                    <h5 class="card-title">Jon Snow</h5>
+                    <h5 v-for="name in names" class="card-title">{{ name }}</h5>
                     <sub>Anesthesiologist</sub>
                     <p class="card-text">
                       Some quick example text to build on the card title and
@@ -113,7 +119,7 @@ import { ref } from "vue";
                     class="card-img-top"
                     alt="..." />
                   <div class="card-body text-start">
-                    <h5 class="card-title">Tony Stark</h5>
+                    <h5 v-for="name in names" class="card-title">{{ name }}</h5>
                     <sub>Cardiologist</sub>
                     <p class="card-text">
                       Some quick example text to build on the card title and
@@ -129,7 +135,7 @@ import { ref } from "vue";
                     class="card-img-top"
                     alt="..." />
                   <div class="card-body text-start">
-                    <h5 class="card-title">Anna Smith</h5>
+                    <h5 v-for="name in names" class="card-title">{{ name }}</h5>
                     <sub>Nurse Practitioner</sub>
                     <p class="card-text">
                       Some quick example text to build on the card title and
