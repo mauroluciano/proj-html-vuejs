@@ -31,7 +31,7 @@ import { ref } from "vue";
         </div>
       </div>
 
-      <div class="container">
+      <div class="container-fluid">
         <div class="message mt-5">
           <section>
             <h2>Caring For Life</h2>

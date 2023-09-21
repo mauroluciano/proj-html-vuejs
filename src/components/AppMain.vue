@@ -1,11 +1,5 @@
 <script>
 import { ref } from "vue";
-
-data() {
-  return {
-    names: ['Jon Snow', 'Tony Stark', 'Anna Smith']
-  },
-};
 </script>
 
 <template>

@@ -9,5 +9,13 @@ library.add(faUserSecret);
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap";
-createApp(App).mount("#app");
+
+createApp({
+  data() {
+    return {
+      name: "Jon Snow, Tony Stark, Anna Smith",
+    };
+  },
+}).mount("#app");
+
 app.component("font-awesome-icon", FontAwesomeIcon);
