@@ -81,7 +81,7 @@
 }
 
 .threeBoxes {
-  height: 10vh;
+  max-height: 50vh;
   color: white;
 
   span {
@@ -111,8 +111,21 @@
   background-repeat: no-repeat;
   min-height: 80vh;
   color: white;
+
+  p {
+    width: 500px;
+    margin: 20px 0;
+  }
 }
 
 .form {
-  width: 600px;
+  width: 500px;
+}
+
+.jumbotronIcons {
+  background-image: url(./assets/img/images/rgb-gradient-bar-for-logo-carrasel.jpg);
+  min-height: 20vh;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
 }

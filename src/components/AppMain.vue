@@ -331,70 +331,92 @@ import { ref } from "vue";
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo
             </p>
-            <form
-              action="http://learning.tizianonicolai.com/request-catcher/"
-              method="GET"
-              class="text-start row form">
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <label for="validationCustom01" class="form-label"
-                  >First name</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="validationCustom01"
-                  value="Mark"
-                  required />
-                <div class="valid-feedback">Looks good!</div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <label for="validationCustom02" class="form-label"
-                  >Last name</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="validationCustom02"
-                  value="Otto"
-                  required />
-                <div class="valid-feedback">Looks good!</div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <label for="validationCustom01" class="form-label"
-                  >First name</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="validationCustom01"
-                  value="Mark"
-                  required />
-                <div class="valid-feedback">Looks good!</div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <label for="validationCustom02" class="form-label"
-                  >Last name</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="validationCustom02"
-                  value="Otto"
-                  required />
-                <div class="valid-feedback">Looks good!</div>
-              </div>
-              <div class="col-12">
-                <label for="textarea" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  name="textarea"
-                  id="textarea"
-                  rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary" value="Send">
-                Send
-              </button>
-            </form>
+            <div class="d-flex justify-content-center">
+              <form
+                action="http://learning.tizianonicolai.com/request-catcher/"
+                method="GET"
+                class="text-start row form g-3 needs-validation">
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2">
+                  <input
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    id="validationCustom01"
+                    placeholder="Name*"
+                    required />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2">
+                  <input
+                    name="email"
+                    type="text"
+                    class="form-control"
+                    id="validationCustom02"
+                    placeholder="E-mail*"
+                    required />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2">
+                  <input
+                    name="tel"
+                    type="text"
+                    class="form-control"
+                    id="validationCustom01"
+                    placeholder="Phone number"
+                    required />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2">
+                  <input
+                    name="appointment"
+                    type="text"
+                    class="form-control"
+                    id="validationCustom02"
+                    placeholder="Appointment"
+                    required />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+                <div class="col-12 my-2">
+                  <textarea
+                    class="form-control"
+                    name="textarea"
+                    id="textarea"
+                    placeholder="How can we help?"
+                    rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" value="Send">
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotronIcons container-fluid">
+      <div class="container">
+        <div class="row text-center d-flex justify-content-center flex-wrap">
+          <div class="col-sm">
+            <img
+              src="/src/assets/img/images/client-logos-1-200x188.png"
+              alt="" />
+          </div>
+
+          <div class="col-sm">
+            <img
+              src="/src/assets/img/images/client-logos-2-200x188.png"
+              alt="" />
+          </div>
+          <div class="col-sm">
+            <img
+              src="/src/assets/img/images/client-logos-3-200x188.png"
+              alt="" />
+          </div>
+          <div class="col-sm">
+            <img
+              src="/src/assets/img/images/client-logos-4-200x188.png"
+              alt="" />
           </div>
         </div>
       </div>
